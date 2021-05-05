@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Juan Paz</title>
+  <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" type="image/png" href="img/tecno.png">
+</head>
+
+<body>
+  <div class="container">
+    <div class="notification is-primary">
+      Tarea Número 6 - Curso Desarrollo Web <strong>IDAT</strong> Alumno : Juan Paz Fiestas
+    </div>
+  </div>
+  <div class="container">
+    <header>
+      <div class="columns">
+        <div class="column is-10">
+          <p class="subtitle is-3">Sistema Integrado de Gestión</p>
+
+        </div>
+        <div class="column is-1">
+          <figure class="image is-32x32">
+            <img src="img/usuario.png" alt="foto_usuario">
+        </div>
+        <div class="column is-1">
+          <h4>usuario 1</h4>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">Inicio</a>
+          <a class="navbar-item">Usuarios</a>
+          <a class="navbar-item">Clientes</a>
+          <a class="navbar-item">Proveedores</a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">Productos</a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" id="menuListado">Listado de Productos</a>
+              <hr class="navbar-divider">
+              <a class="navbar-item" id="menuAgregar">Agregar Producto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="field has-addons">
+            <div class="control">
+              <input class="input" type="text" placeholder="Buscar en la web">
+            </div>
+            <div class="control">
+              <a class="button is-info">
+                Buscador
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+        <section>
+            <iframe id="mainFrame" src="" frameborder="0"></iframe>
+        </section>
+  </main>
+  <script src="index.js"></script>
+
+  <div class="container">
+    <div class="notification is-primary">
+      <footer>
+        <div class="columns">
+          <div class="column is-4">
+            <a href="#">Que Hacemos ?</a>
+          </div>
+          <div class="column is-6">
+            <a href="#">Enlaces Principales</a>
+          </div>
+          <div class="column is-1">
+            <a href="#">Contáctenos</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

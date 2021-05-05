@@ -1,0 +1,113 @@
+aside{
+    grid-area: aside;
+    border: 1px solid rgba(4, 56, 28, 0.904);
+    background-color:rgba(147, 235, 172, 0.79);
+}
+aside fieldset{
+    margin-bottom: 40px;
+    margin: 20px 20px 20px 30px;
+    font-family: Tahoma;
+    font-size: small;
+}
+aside fieldset label{
+    display: inline-flex;
+    justify-content: right;
+    width: 25%;
+    font-family: Tahoma;
+    font-size: small;
+    color: black;
+}
+footer ul {
+    display: flex;
+    flex: auto ;
+    list-style: none;
+    padding-top: 5px;
+} 
+
+#mainFrame {
+    height: 65vh;
+    width: 100%;
+    background-color: white;
+} 
+
+#grupo {
+    background-color:black;
+    border-radius: 4px;
+}
+
+#grupo label {
+    background-color:black;
+    border-radius: 4px;
+    color:white;
+}
+
+legend {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: var(--purple);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 5px 3px 7px;
+    width: auto;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+        
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+tr th {
+    color:white;
+    /*font-size: 15px;*/
+    font-size: 13px;
+}
+
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:black;
+    color: white;
+    font-size: 13px;
+
+}
+
+table td:nth-child(5){
+    text-align: left;
+    padding-right: 5%;
+}
+
+table img {
+    height: 60px;
+    width: auto;
+}
+
+button {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.boton-eliminar {
+    background: tomato;
+}
+

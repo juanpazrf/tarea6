@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" type="image/png" href="img/tecno.png">
+</head>
+
+
+<body>
+    <div class="container">
+      <header>
+        <div class="columns">
+          <div class="column is-10">
+            <h4>Listado de Productos</h4>
+          </div>
+        </div>
+      </header>
+    </div>
+    <br>
+    <main>
+
+    <div class="container">
+        <fieldset id="grupo" class="column is-12">
+            <legend>Filtros</legend>
+        
+            <div class="columns is-multiline">
+
+              <div class="column is-1">
+                <label>Categoria</label>
+              </div>
+
+              <div class="column is-2">
+                <div class="select">
+                  <select id="comboCategoria"></select>
+                </div>          
+              </div>
+
+              <div class="column is-2">
+                <label>Nombre Producto</label>
+              </div>
+
+
+              <div class="column is-6">
+                <div class="field is-horizontal">
+                  <div class="field-body">
+                    <div class="field">
+                      <input class="input is-small" type="text" id="textoProducto" placeholder="Ingrese producto"
+                        pattern="[a-zA-Z\s\-\0-9]{1,100}" title="Solo letras" maxlength="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-1">
+                <input id="botonBuscar" class="button is-success" type="submit" value="Buscar">
+              </div>
+        </fieldset>
+      </div>
+      <br>
+
+
+      <div class="container" class="column is-12">
+        <table>
+          <tr>
+              <th>Codigo</th>
+              <th>Producto</th>
+              <th>Categoria</th>
+              <th>Precio</th>
+              <th>Proveedor</th>
+              <th>Accion</th>
+          </tr>
+          <tbody id="contenidoTabla"></tbody>
+        </table>
+      </div>
+
+
+   </main>
+    <script src="index-listado.js"></script>
+</body>
+
+</html>
